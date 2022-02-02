@@ -12,10 +12,11 @@ void output(int a,int b,int sum)
 {
   printf("sum of %d+%d is %d\n",a,b,sum);
 }
-void main()
+int main()
 {
   int a,b,s;
   input(&a,&b);
   add(a,b,&s);
   output(a,b,s);
+  return 0;
 }
