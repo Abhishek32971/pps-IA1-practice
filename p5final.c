@@ -8,10 +8,10 @@ float input()
 }
 float my_sqrt(float n) 
 { 
-    float a=n; 
-    float b=0; 
+    float a=n;  
+    float b;
     float q=0.000001; 
-    while (a-b>q)
+    while (fabs(a-b)>q)
     { 
         a=(a+b)/2; 
         b=n/a; 
