@@ -10,7 +10,7 @@ float my_sqrt(float n)
 { 
     float a=n; 
     float b=0; 
-    float q=0.00001; 
+    float q=0.000001; 
     while (a-b>q)
     { 
         a=(a+b)/2; 
