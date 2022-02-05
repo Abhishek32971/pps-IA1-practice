@@ -16,7 +16,7 @@
       printf("%s is greater than %s\n",a,b);
      else if(result==0)
       printf("%s is equal to %s\n",a,b);
-     else
+     if (result<0)
       printf("%s is greater than %s\n",b,a);
    } 
    int main()
